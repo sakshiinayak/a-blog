@@ -15,7 +15,6 @@ Users can delete a specifc post through DELETE requests to the API. Deleted post
 
 API Integration:
 The blog interacts with the backend server via API calls, which handle CRUD operations.
-there are two files server.js which acts as the serer and the index.js
 
 Technology Stack:
 Backend: Node.js with Express framework for building RESTful APIs.
