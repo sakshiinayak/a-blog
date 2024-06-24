@@ -19,4 +19,3 @@ The blog interacts with the backend server via API calls, which handle CRUD oper
 Technology Stack:
 Backend: Node.js with Express framework for building RESTful APIs.
 Frontend: HTML, CSS, Bootstrap
-API Documentation: Swagger or similar tools may be used to document API endpoints for easy integration and understanding.
