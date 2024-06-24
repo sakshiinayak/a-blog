@@ -1,0 +1,23 @@
+<%-include("header.ejs")%>
+  <div class="container about-og">
+    <h1 class="heading">a blog</h1>
+    <ul>
+      <% posts.forEach(p=> { %>
+        <li>
+          <h2>
+            <%=p.title%>
+          </h2>
+          <small class="small">
+            by: <%=p.author %>
+          </small>
+          <p>
+            <%=p.content%>
+          </p>
+          <a class="btn-dark" href="/api/edit/<%= p.id %>">edit</a>
+          <a class="btn-dark" href="/api/delete/<%= p.id %>">delete</a>
+        </li>
+        <% }); %>
+    </ul>
+  </div>
+
+  <%-include("footer.ejs")%>
