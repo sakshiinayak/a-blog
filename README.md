@@ -1,4 +1,3 @@
-### a-blog
 
 ## Blog with CRUD Operations Using API  
 This blog application is designed to provide a seamless user experience for creating, editing, and deleting blog posts. The backend is built using Node.js with Express framework
