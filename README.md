@@ -4,11 +4,14 @@ This blog application is designed to provide a seamless user experience for crea
 
 ## Features:   
 Create New Posts:  
-Users can create new blog posts by submitting a form or making a POST request to the API endpoint.Each post includes a title, content and author.  
+Users can create new blog posts by submitting a form or making a POST request to the API endpoint. Each post includes a title, content and author.  
+
 Read Posts:  
-All posts updated or edited during the same load are displayed in the home page.   
+All posts updated or edited during the same load are displayed in the home page.
+
 Update Posts:  
-User is allowed to update the existing post using a patch request after routing from server.js.  
+User is allowed to update the existing post using a patch request after routing from server.js. 
+
 Delete Posts:  
 Users can delete a specifc post through DELETE requests to the API. Deleted post are removed from the blog.  
 
